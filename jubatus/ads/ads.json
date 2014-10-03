@@ -1,0 +1,46 @@
+{
+  "ad_brz": {
+    "text": "car 車 brz BRZ SUBARU スバル",
+    "image_path": "images/brz.jpg"
+  },
+  "ad_cybershot": {
+    "text": "camera カメラ cybershot サイバーショット SONY sony コンデジ コンパクトデジタルカメラ",
+    "image_path": "images/cybershot.jpg"
+  },
+  "ad_d7100": {
+    "text": "camera カメラ 一眼レフ D7100 Nikon nikon ニコン",
+    "image_path": "images/d7100.jpg"
+  },
+  "ad_dyson": {
+    "text": "掃除機 dyson DYSON サイクロン 吸引力",
+    "image_path": "images/dyson.jpg"
+  },
+  "ad_hdr": {
+    "text": "hdr HDR ビデオカメラ",
+    "image_path": "images/hdr.jpg"
+  },
+  "ad_heat_recycle": {
+    "text": "heat recycle ヒートリサイクル 洗濯機",
+    "image_url": "heat_recycle.jpg"
+  },
+  "ad_komefuku": {
+    "text": "料理 米福 komefuku KOMEFUKU しゃぶしゃぶ ご飯",
+    "image_url": "komefuku.jpg"
+  },
+  "ad_macbook_pro": {
+    "text": "macbook pro retina Mac APPLE apple ノートパソコン PC",
+    "image_path": "images/macbook_pro.jpg"
+  },
+  "ad_odoridaki": {
+    "text": "おどり炊き 炊飯器 ご飯 炭火",
+    "image_path": "images/odoridaki.jpg"
+  },
+  "ad_sennheiser": {
+    "text": "sennheiser ゼンハイザー ヘッドホン",
+    "image_path": "images/sennheiser.jpg"
+  },
+  "ad_viera": {
+    "text": "Viera viera ビエラ テレビ TV",
+    "image_path": "images/viera.jpg"
+  }
+}

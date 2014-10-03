@@ -10,7 +10,7 @@ from jubatus.common import Datum
 
 import json
 
-LEARNING_JSON_PATH = './ads.json'
+LEARNING_JSON_PATH = './ads/ads.json'
 
 
 def connect_jubatus():
@@ -25,6 +25,7 @@ def update(learning_json_path):
     for key, value in learning_data.items():
         d = Datum(value)
         client.update_row(key,d)
+        print key, value
 
 def main():
     update(LEARNING_JSON_PATH)
