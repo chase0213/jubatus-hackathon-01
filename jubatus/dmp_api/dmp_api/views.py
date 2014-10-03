@@ -26,8 +26,8 @@ def analyze(obj):
 
 def index(request):
     text = ""
-    if request.method == 'GET':
-        text = request.GET["text"]
+    if request.method == 'POST':
+        text = request.POST["text"]
     data = { "text": text }
     sr = analyze(data)
     json_obj = {}
