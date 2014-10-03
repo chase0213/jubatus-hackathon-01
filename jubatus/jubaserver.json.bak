@@ -19,9 +19,6 @@
         "function": "create",
         "path": "/usr/lib64/jubatus/plugin/libmecab_splitter.so",
         "arg": "-d /usr/lib64/mecab/dic/ipadic"
-      },
-      "bigram": {
-        "method": "ngram", "char_num": "2"
       }
     },
     "string_rules": [
@@ -33,6 +30,5 @@
     ]
   },
   "parameter": {
-    "hash_num": 32
   }
 }
