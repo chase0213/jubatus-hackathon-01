@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Signika+Negative' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag '/javascripts/jquery' %>
+    <%= javascript_include_tag '/javascripts/jquery_ujs' %>
+    <%= javascript_include_tag '/javascripts/ad_deliver' %>
+    <meta charset="utf8">
+</head>
+<body>
+
+<!-- ヘッダ -->
+<header id="header" class = "BoxSizing">
+  <div class="page-title"><h1 class="title-nav">News</h1></div>
+  <%= form_tag({controller: :blog, action: :search}, method: :get, class: :search) do %>
+    <%= text_field_tag :search_word, nil, :class => "search-box" %>
+    <%= button_tag :検索, class: "search-btn" %>
+  <% end %>
+<% if false %>
+  <form class="search">
+    <input type="text" class="search-box">
+    <button type="button" value="検索" class="search-btn">検索</button>
+  </form>
+<% end %>
+</header>
+<!-- ヘッダー終了 -->
+
+<!--　検索結果画面 -->
+<div id = "container">
+  <%= hidden_field_tag "authenticity_token", form_authenticity_token %>
+  <%= yield :content %>
+</div>
+<!--　検索結果画面終了 -->
+
+<div id="footer">
+</div>
+
+</body>
+</html>
+
