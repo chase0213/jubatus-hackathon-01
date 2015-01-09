@@ -1,0 +1,2 @@
+module AdDeliverHelper
+end

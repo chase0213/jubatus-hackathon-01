@@ -1,0 +1,17 @@
+<%-
+  articles ||= nil
+-%>
+<ul class="articles">
+  <% if articles.blank? %>
+    <p>記事が見つかりません</p>
+  <% else %>
+    <% articles.each do |article| %>
+      <li class="article">
+        <div class="title-wrapper">
+          <h2 class="title"><%= article.title %></h2>
+        </div>
+        <p class="content"><%== article.content %></p>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
